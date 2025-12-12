@@ -1,0 +1,34 @@
+# JARVIS ULTIMATE - Dépendances Python
+# Installation : pip install -r requirements_ultimate.txt
+
+# Reconnaissance vocale
+SpeechRecognition==3.10.0
+sounddevice==0.4.6
+soundfile==0.12.1
+numpy==1.24.3
+
+# Synthèse vocale
+gTTS==2.4.0
+pygame==2.5.2
+pyttsx3==2.90
+
+# IA et traitement
+groq==0.4.1
+
+# Interface web
+flask==3.0.0
+flask-socketio==5.3.5
+python-socketio==5.10.0
+
+# Système
+psutil==5.9.6
+pyautogui==0.9.54
+pillow==10.1.0
+
+# Utilitaires
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Optionnel mais recommandé
+colorama==0.4.6
+prettytable==3.9.0

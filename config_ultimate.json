@@ -1,0 +1,65 @@
+{
+  "_comment": "JARVIS ULTIMATE - Configuration",
+  
+  "groq_api_key": "TA_CLE_GROQ_ICI",
+  
+  "hotword": {
+    "type": "simple",
+    "keyword": "jarvis",
+    "_comment_type": "simple = mot-clé requis, always = toujours en écoute"
+  },
+  
+  "stt": {
+    "mode": "google",
+    "language": "fr-FR",
+    "_comment": "Reconnaissance vocale Google (gratuit)"
+  },
+  
+  "tts": {
+    "engine": "gtts",
+    "rate": 150,
+    "volume": 1.0,
+    "_comment": "gtts = Google TTS (nécessite internet), pyttsx3 = local (offline)"
+  },
+  
+  "personality": {
+    "mode": "normal",
+    "_comment_modes": "normal, funny, geek",
+    "name": "Jarvis",
+    "greetings_personalized": true
+  },
+  
+  "features": {
+    "web_interface": true,
+    "history_save": true,
+    "auto_learn": true,
+    "notifications": true,
+    "_comment": "Active/désactive des fonctionnalités"
+  },
+  
+  "interface": {
+    "default_theme": "ironman",
+    "_comment_themes": "ironman, matrix, cyberpunk, fire",
+    "port": 5000
+  },
+  
+  "contacts": {
+    "tata": "079 917 57 64",
+    "yvette": "079 452 62 21",
+    "_comment": "Ajoute tes contacts ici"
+  },
+  
+  "shortcuts": {
+    "_comment": "Commandes rapides personnalisées",
+    "travail": "ouvre vscode et chrome",
+    "pause": "ouvre youtube et spotify",
+    "etude": "ouvre notepad et calculatrice"
+  },
+  
+  "advanced": {
+    "debug": true,
+    "log_conversations": true,
+    "max_history": 100,
+    "auto_update_check": false
+  }
+}
