@@ -62,8 +62,8 @@ class JarvisUltimate:
         self.use_groq = False
         
         if GROQ_AVAILABLE:
-            api_key = config.get("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")
-            if api_key and api_key != "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":
+            api_key = config.get("Your_Groq_API_Keys")
+            if api_key and api_key != "Your_Groq_API_Keys":
                 try:
                     self.groq_client = Groq(api_key=api_key)
                     self.use_groq = True
@@ -694,4 +694,5 @@ class JarvisUltimate:
             return response.choices[0].message.content.strip()
         except Exception as e:
             print(f"Erreur Groq: {e}")
+
             return "Erreur de connexion à l'IA."
